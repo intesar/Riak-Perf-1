@@ -1,0 +1,8 @@
+command to build
+mvn clean install
+mvn assembly:single
+
+cd target
+
+replace some.jar with the "..-jar-with-dependencies.jar"
+java -jar "some.jar"
